@@ -11,5 +11,11 @@ let disemvowel = function(str){
   let char = str.split('');
   let vowels = [];
   let consts = [];
-
+  for(let i = 0; i < char.length; i++){
+    if((i == 'a')||(i == 'i')||(i == 'e')||(i == 'o')||(i == 'u')){
+      vowels.push(i);
+    }else{
+      consts.push(i);
+    }
+  }
 }
