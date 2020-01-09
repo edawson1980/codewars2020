@@ -1,5 +1,7 @@
 //**DISEMVOWEL TROLLS - write a function to return a string devoid of vowels
 
-function disemvowel(str){
+let str = "This website is for losers LOL!";
 
+function disemvowel(str){
+  let char = str.split('');
 }
